@@ -1,0 +1,302 @@
+/*
+* @Author: anchen
+* @Date:   2019-09-05 16:28:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2019-09-16 17:00:07
+*/
+html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-size: 10px;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+     .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+ @keyframes fff{
+ 0%  {background-color:black;}
+ 50%{background-color:white;}
+ 100%{background-color: yellow;}
+ }
+header li,section li ,{
+    list-style: none;
+}
+
+.clearfix { *zoom:1;}
+header a, section a{
+    text-decoration: none;
+}
+.wrap{
+    width: 100%;
+}
+.header-top{
+    width: 100%;
+    margin:0 auto;
+    background:linear-gradient(#212121,#121212) ;
+}
+.header-top-inner,.header-mid-inner,.banner-inner,.main-top-inner,.main-down-inner,.footer-top-inner,.footer-down{
+    width: 62.3936%;
+    margin:0 auto;
+}
+.header-top ul{
+    padding: 5px 0;
+}
+.header-top-inner span{
+    color: white;
+}
+.header-top a{
+    color:white;
+    padding:0 8px;
+}
+.header-top a:nth-child(7){
+    float: right;
+    color:#000000;
+    text-shadow: 0 0 4px white;
+}
+.header-mid{
+    width: 100%;
+    background-color: #f25c27;
+}
+
+.header-mid-inner b{
+    font-size: 3.5rem\9;
+}
+.header-mid-inner b:hover{
+    color: white;
+}
+.header-mid-inner li{
+    float: right;
+
+}
+.header-mid-inner a{
+    color: white;
+    float:left;
+    line-height: 4.7em;
+   padding: 0 10px;
+ transition:background-color 0.5s;
+}
+.header-mid-inner  a:hover{
+     background-color:yellow;
+     animation:fff 0.5s 1;
+     text-shadow: 0 0 2px #fff;
+}
+.header-mid-inner a:nth-child(1){
+    background-color:black;
+}
+.banner{
+    width: 100%;
+    background: linear-gradient(#251d1b,#221d1a);
+}
+.banner-inner img{
+    width: 100%;
+}
+.banner-inner h2{
+    float: left;
+    display: inline-block;
+    font-size: 3rem;
+    color: red;
+    line-height: 1.5em;
+   margin-top: 20px;
+   margin-bottom: 30px;
+    padding-right: 20px;
+    border-right: 1px solid #454545;
+}
+.banner-r{
+    width: 75.3936%;
+    float:left;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.banner-inner p{
+    color: #454545;
+}
+.banner-r a,.main-mid a{
+    width: 100px;
+    display: block;
+    text-align: center;
+    color:white;
+    padding: 3px;
+    margin:5px auto;
+    background-color:#f25c27;
+}
+.banner-r a,.main-mid a:hover{
+    text-shadow: 0 0 2px white;
+}
+.main-top h3{
+    color: #f25c27;
+     font-size: 2rem;
+}
+.main-top-inner img{
+    width: 23.0375%;
+    margin:10px 10px 10px 0;
+
+}
+
+.main-top-inner img:hover{
+    transform:scale(1.5,1.5);
+}
+.main-mid h2, .main-mid h3,.main-mid p{
+    text-align: center;
+}
+.main-mid h2,.main-mid h3{
+    font-size: 2rem;
+   color: #f15c27;
+}
+.main-mid p{
+    color: #707073;
+}
+.main-mid{
+   width: 100%;
+   border: 1px dashed #ccc;
+}
+.main-down-inner h3{
+    font-size: 2.5rem;
+    color: #f15c27;
+}
+.main-down-inner h4{
+     color: #f15c27;
+     font-size: 2rem;
+}
+.downone{
+    width: 23.0572%;
+    float: left;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.main-down-inner b{
+    color: #f15c27;
+}
+.main-down-inner img{
+    width: 100%;
+}
+.main-down-inner p{
+    width:30%;
+    float: left;
+}
+.main-down-inner strong{
+     color: #9c7086;
+}
+.main-down-inner h5{
+
+    color:white;
+    width:30%;
+    background-color:red;
+}
+.footer-top{
+    width: 100%;
+    background-color: #241c1a;
+}
+.ftop-l h4{
+   color: red;
+   font-size: 2rem;
+   width:44%;
+   margin-top: 20px
+}
+.footer-top img{
+    width:43%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.ftop-l{
+    width: 46.3373%;
+    float: left;
+}
+.ftop-l p{
+    margin-top: 20px;
+    color: white;
+
+}
+.ftop-l span{
+    color: gray;
+
+}
+.ftop-r{
+    width: 53%;
+    float: right;
+}
+.ftop-r h4{
+    font-size: 2rem;
+    color: red;
+    margin: 20px 20px;
+}
+.ftop-r li{
+    color: red;
+    line-height: 2em;
+}
+.one,.two,.three,.four{
+    float: left;
+    margin-left: 30px;
+}
+.footer-down span{
+    color: red;
+}
+.footer-down p{
+    color: black;
+}
+.footer-down h3{
+    float: right;
+    color: red;
+}
+.downthree{
+    position:relative;
+}
+
+/*.fdownd  li{
+
+float: left;
+
+    list-style: none;
+    font-size: 2rem;
+    display: block;
+    background-color: #f999;
+}
+.downthree ul{
+    display: none;
+    position:absolute;
+}
+.downthree:hover.downthree ul{
+    display:block;
+background-color: red  ;
+}
+
+.downonee li,.downtwo li,.downthree li{
+    float:none;
+}
+td{
+    font-size: 2rem;
+}
+td{
+    border:1px solid red;
+
+}
+td:nth-child(4n+1){
+    background-color: #999;
+}
+
+*/
+
+
+
+
+
